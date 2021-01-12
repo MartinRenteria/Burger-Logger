@@ -17,7 +17,7 @@ var handlebars = require("express-handlebars");
 
 app.engine("handlebars", handlebars);
 
-var routes = require("./controllers/burgers_controller.js");
+var routes = require("./controllers/burgers-controller.js");
 
 app.use(routes);
 
