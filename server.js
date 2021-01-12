@@ -14,8 +14,6 @@ app.use(express.uriencoded({
 
 app.use(express.json());
 
-let handlebars = require("express-handlebars");
-
 app.engine("handlebars", handlebars);
 
 let routes = require("./controllers/burgers-controller.js");
