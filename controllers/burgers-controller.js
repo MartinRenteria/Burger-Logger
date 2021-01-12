@@ -1,2 +1,3 @@
 let express = require("express");
-let burger = require("burger.js");
+let router = express.router();
+let burger = require("../modals/burger.js");
