@@ -1,6 +1,6 @@
-var orm = require("../config/orm.js");
+let orm = require("../config/orm.js");
 
-var burger = {
+let burger = {
     all: function (cb) {
         orm.all("burgers", function (res) {
             cb(res);
@@ -16,7 +16,7 @@ create: function (name, cb) {
 },
 
 update: function (id, cb) {
-    var condition = "id=" + id;
+    let condition = "id=" + id;
     orm.update("burgers", {
         devoured: true
     }, condition, cb);
