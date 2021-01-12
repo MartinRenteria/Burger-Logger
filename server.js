@@ -8,7 +8,7 @@ let app = express();
 app.use(express.static("public"));
 
 //Parse incoming appiication body data
-app.use(express.uriencoded({
+app.use(express.urlencoded({
     extended: true
 }));
 
