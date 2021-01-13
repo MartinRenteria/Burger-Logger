@@ -10,7 +10,7 @@ function printQuestionMarks(num) {
     return arr.toString();
 }
 
-function objToSql(ob) {.
+function objToSql(ob) {
     var arr = [];
 
     for (var key in ob) {
