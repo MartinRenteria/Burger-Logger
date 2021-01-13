@@ -11,7 +11,7 @@ if(process.env.JAWSDB_URL){
         host: "localhost",
         user: "root",
         password: process.env.DB_PASS,
-        database: process.env.MYSQL_DB
+        database: burger_db
     });
 }
 
