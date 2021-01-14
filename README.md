@@ -18,7 +18,7 @@ The main webpage is generated through the NPM package Handlebars. Once the user 
 
 Here is a photo of the Burger Logger.
 
-![Burger-Logger](public\assets\img\burgerScreenshot.png?raw=true)
+![Burger-Logger](public\assets\img\burger-app-node-handlebars.herokuapp.com_burgers.png)
 
 # Link
 Look at the live version through Heroku [here.](https://burger-app-node-handlebars.herokuapp.com/)
