@@ -5,7 +5,7 @@ let PORT = process.env.PORT || 8080;
 let app = express();
 
 // Uses files to display infotmation from the public folder to serve static content
-app.use(express.static(__dirname + "public"));
+app.use(express.static("public"));
 
 //Parse incoming appiication body data
 app.use(express.urlencoded({
