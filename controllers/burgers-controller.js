@@ -30,18 +30,11 @@ router.put("/burgers/:id", function (req, res) {
 });
 
 router.delete("/burgers/:id", (req, res) => {
-    const id = req.params.id;
-    console.log("id", id);
 
-    burger.deleteOne(id, (result) => {
-        if (result.affectedRows == 0) {
-            return res.status(404).end();
-        }
-        else {
-            res.status(200).end();
-        }
+    burger.deleteone(req.params.id, function (result) {
+        console.log(result);
+        res.sendStatus(200);
     });
 });
-
 
 module.exports = router;
