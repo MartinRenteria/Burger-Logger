@@ -8,7 +8,7 @@ body {
 }
 
 .card-header {
-    background-color: red;
+    background-color: rgb(55, 167, 20);
     color: #fff;
 }
 
@@ -19,7 +19,7 @@ footer {
     text-align: center;
     width: 100%;
     background-color: #343A40;
-    border-top: 5px solid red;
+    border-top: 5px solid rgb(234, 238, 14);
 }
 
 footer small {
