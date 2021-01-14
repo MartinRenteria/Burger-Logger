@@ -31,7 +31,7 @@ router.put("/burgers/:id", function (req, res) {
 
 router.delete("/burgers/:id", (req, res) => {
 
-    burger.deleteone(req.params.id, function (result) {
+    burger.deleteOne(req.params.id, function (result) {
         console.log(result);
         res.sendStatus(200);
     });

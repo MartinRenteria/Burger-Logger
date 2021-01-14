@@ -3,10 +3,22 @@
 ## **Description**
  
 
-## **Installation Instructions**
+## Table of Contents
+
+* [Screenshot](#screenshot)
+* [License](#license)
+* [Questions](#questions)
+
+## **Screenshot**
+
+Here is a photo of the Burger Logger.
+
+![Burger_Devourer](public\assets\img\burger-app-node-handlebars.herokuapp.com_burgers.png)
 
 
-## **Video**
+## **License**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## **Questions**
